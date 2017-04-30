@@ -130,6 +130,6 @@ section{
 .error{
 	color:red;
 }
-.thanks h2{
-	line-height: 540px;
+.thanks{
+	margin-top: 20%;
 }

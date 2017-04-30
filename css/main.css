@@ -1,0 +1,135 @@
+body {
+	font-size: 16px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "Ubuntu-Regular", sans-serif;
+	overflow-x: hidden;
+	width: 100vw;
+	min-height: 750px;
+	height: 100vh;
+	background: url(../img/bg.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+section{
+	width: 900px;
+	height: 600px;
+	background-color: #fff;
+	margin: 75px auto 0;
+	position: relative;
+}
+.ellipse:before{
+	content:'';
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	top: -55px;
+	left: 70px;
+	background: url(../img/ellips-up.png) no-repeat center center;
+}
+.ellipse:after{
+	content:'';
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	bottom: -55px;
+	right: 70px;
+	background: url(../img/ellips-down.png) no-repeat center center;
+}
+.half{
+	width: 900px;
+	height: 600px;
+	display: inline-block;
+	position: relative;
+}
+.img, 
+.reg-form{
+	width: 405px;
+	height: 540px;
+	display: inline-block;
+	margin: 20px;
+}
+.img{
+	background: url(../img/form-image.png) no-repeat center center;
+	vertical-align: top;
+}
+.reg-form{
+	text-align: center;
+}
+.registration-form{
+	height: 100%;
+	position: relative;
+	margin-top: 12px;
+	border:none;
+}
+.registration-form h3{
+	font-family: 'Ubuntu-Bold';
+	margin-bottom: 30px;
+}
+.registration-form p{
+	font-size: 16px;
+}
+.form-control{
+	display: inline-block;
+	padding-left: 30px;
+	width: 80%;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 0;
+	border:none;
+	border-bottom:1px solid rgba(0,0,0,.2);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.registration-form{
+	position: relative;
+}
+.input-name{
+	background: url(../img/user.png) no-repeat;
+	background-position: 4px;
+}
+.input-email{
+	background: url(../img/email.png) no-repeat;
+	background-position: 4px;
+}
+.input-password{
+	background: url(../img/pass.png) no-repeat;
+	background-position: 4px;
+}
+.form-button {
+	width: 178px;
+	height: 50px;
+	margin: 20px auto 0;
+	background-color: #82c5c3;
+	border-radius: 30px;
+	font-family: 'Ubuntu-Bold';
+	font-size: 16px;
+	border:none;
+	display: block;
+}
+.form-button:hover{
+	background-color: #82c5c3;
+}
+.registration-form >.signIn{
+	margin-top: 40px;
+	text-align: left;
+	font-size: 14px;
+	margin-left: 40px;
+}
+.signIn a,
+.signIn a:hover{
+	color:#f69a7a;
+	font-family: 'Ubuntu-Medium';
+	text-decoration: none;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.error{
+	color:red;
+}
+.thanks h2{
+	line-height: 540px;
+}
